@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+.formtable {
+	width: 500px;
+	border: 1px solid blue;
+	margin: 50px;
+	padding: 10px;
+}
+
+.label {
+	text-align: right;
+	vertical-align: top;
+}
+
+.control {
+	margin-left: 10px;
+}	
+
+.error {
+	font-size:small;
+	color: red;
+	margin-left: 10px;
+}
+
+table.type1 {
+    border-collapse: collapse;
+    text-align: center;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    margin: 20px 10px;
+}
+table.type1 thead {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    background: #e7708d;
+}
+table.type1 thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+}
+table.type1 tbody th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #fcf1f4;
+}
+table.type1 td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+input[type=text] {
+	width: 300px;
+	border-width: 1px;
+	padding: 2px;
+}
+
+input[type=submit] {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+
+input[type=submit]:hover {
+	background-color: #e7708d;
+}
